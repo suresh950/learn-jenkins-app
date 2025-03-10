@@ -34,6 +34,7 @@ pipeline {
                     cat build/index.html
                     ls -la build/
                     npm test
+                    echo "Test stage"
              '''
             }
         }
