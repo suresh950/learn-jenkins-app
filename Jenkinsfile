@@ -23,6 +23,8 @@ pipeline {
         stage(" test stage"){
             steps {
                 sh '''
+                    ls -l
+                    test -f build/index.html
                     echo "hello from test stage"
                 '''
             }
