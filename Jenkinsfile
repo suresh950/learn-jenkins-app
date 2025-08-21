@@ -20,7 +20,7 @@ pipeline {
             '''
             }
         }
-        stage (" test stage"){
+        stage(" test stage"){
             sh '''
                  echo "hello from test stage"
             '''
